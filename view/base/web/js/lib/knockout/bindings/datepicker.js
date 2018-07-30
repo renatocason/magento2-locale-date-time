@@ -51,7 +51,7 @@ define([
 
             $(el).calendar(options);
 
-            if ('dd/MM/y' === config.options.dateFormat) {
+            if ('dd/MM/yy' === config.options.dateFormat) {
                 observable() && $(el).datepicker(
                     'setDate',
                     moment(observable(), utils.normalizeDate('dd/MM/yyyy')).toDate()

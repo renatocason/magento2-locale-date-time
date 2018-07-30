@@ -24,6 +24,7 @@ class DateTime extends Date
      */
     const DATE_FORMAT_MAPPER = [
         'dd/MM/y' => 'd/m/Y',
+        'dd/MM/yy' => 'd/m/Y',
         'M/d/yy'  => 'm/d/Y',
     ];
 
